@@ -5,7 +5,7 @@
   @include gradient;
 
   li {
-    padding: 0 0.7rem;
+    padding: 0 0.2rem;
 
     a {
       color: $white;
@@ -21,4 +21,10 @@
 
   }
 
+}
+
+.container {
+  a {
+    border-bottom: 0;
+  }
 }

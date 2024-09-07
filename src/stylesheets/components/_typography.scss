@@ -1,5 +1,34 @@
 @use '../custom'as *;
 
+// div, p, button {
+//   @include media-breakpoint-up(lg) {
+//     font-size: 30px;
+//   }
+//   @include media-breakpoint-up(sm) {
+//     font-size: 10px;
+//   }
+// }
+
+@media only screen and (max-width: 576px) {
+  #faq .container, p {
+    font-size: 16px;
+  }
+  button {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 577px) {
+  #faq .container, p {
+    font-size: 22px;
+  }
+  button {
+    font-size: 15px;
+  }
+}
+.icon-100 {
+  font-size: 50px;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
